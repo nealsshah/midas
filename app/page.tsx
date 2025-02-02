@@ -8,6 +8,7 @@ import { BarChart3, ChevronDown, CreditCard, Home, LayoutDashboard, LifeBuoy, Pi
 import { ExpensePieChart } from "@/components/expense-pie-chart"
 import { SavingsGraph } from "@/components/savings-graph"
 import financialData from "@/finances.json"
+import { FinancialDataUploader } from "@/components/FinancialDataUploader";
 
 export default function Page() {
   const { totalBalance, monthlySpending, savingsGoal } = financialData.overview
@@ -53,6 +54,7 @@ export default function Page() {
               <Settings className="h-4 w-4" />
               Settings
             </Button>
+            <FinancialDataUploader />
           </nav>
         </aside>
         <main className="p-6">

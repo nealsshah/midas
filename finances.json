@@ -1,17 +1,17 @@
 {
   "overview": {
     "totalBalance": {
-      "value": 24892.54,
+      "value": 193892.54,
       "change": {
         "value": 1240,
-        "percentage": 5.2,
+        "percentage": 8.2,
         "isPositive": true
       }
     },
     "monthlySpending": {
       "value": 3592.21,
       "change": {
-        "value": 340,
+        "value": -340,
         "percentage": 10.5,
         "isPositive": false
       }
@@ -20,72 +20,132 @@
       "value": 10892,
       "change": {
         "value": 1340,
-        "percentage": 14.0,
+        "percentage": 14,
         "isPositive": true
       }
     }
   },
   "expenseCategories": [
-    { "name": "Housing", "value": 1200 },
-    { "name": "Food", "value": 800 },
-    { "name": "Transportation", "value": 400 },
-    { "name": "Utilities", "value": 300 },
-    { "name": "Entertainment", "value": 200 },
-    { "name": "Healthcare", "value": 150 },
-    { "name": "Other", "value": 542.21 }
+    {
+      "name": "Housing",
+      "value": 1200
+    },
+    {
+      "name": "Food",
+      "value": 800
+    },
+    {
+      "name": "Transportation",
+      "value": 400
+    },
+    {
+      "name": "Utilities",
+      "value": 300
+    },
+    {
+      "name": "Entertainment",
+      "value": 200
+    },
+    {
+      "name": "Healthcare",
+      "value": 150
+    },
+    {
+      "name": "Other",
+      "value": 542.21
+    }
   ],
   "monthlySpendingHistory": [
-    { "month": "Mar", "spending": 3200 },
-    { "month": "Apr", "spending": 3400 },
-    { "month": "May", "spending": 3100 },
-    { "month": "Jun", "spending": 3600 },
-    { "month": "Jul", "spending": 3500 },
-    { "month": "Aug", "spending": 3592 }
+    {
+      "month": "Mar",
+      "spending": 5200
+    },
+    {
+      "month": "Apr",
+      "spending": 3400
+    },
+    {
+      "month": "May",
+      "spending": 3100
+    },
+    {
+      "month": "Jun",
+      "spending": 3600
+    },
+    {
+      "month": "Jul",
+      "spending": 3500
+    },
+    {
+      "month": "Aug",
+      "spending": 3592
+    }
   ],
   "recentTransactions": [
     {
       "name": "Grocery Store",
       "category": "Food",
       "amount": 132.54,
-      "date": "18.08.2023",
-      "type": "debit"
+      "date": "2023-08-18",
+      "type": "Debit"
     },
     {
       "name": "Salary Deposit",
       "category": "Income",
-      "amount": 3500.00,
-      "date": "15.08.2023",
-      "type": "credit"
+      "amount": 3500,
+      "date": "2023-08-15",
+      "type": "Credit"
     },
     {
       "name": "Electric Bill",
       "category": "Utilities",
       "amount": 89.99,
-      "date": "12.08.2023",
-      "type": "debit"
+      "date": "2023-08-12",
+      "type": "Debit"
     },
     {
       "name": "Restaurant",
       "category": "Food",
-      "amount": 65.30,
-      "date": "10.08.2023",
-      "type": "debit"
+      "amount": 65.3,
+      "date": "2023-08-10",
+      "type": "Debit"
     },
     {
       "name": "Online Shopping",
       "category": "Shopping",
       "amount": 199.99,
-      "date": "08.08.2023",
-      "type": "debit"
+      "date": "2023-08-08",
+      "type": "Debit"
     }
   ],
   "monthlyExpenses": [
-    { "name": "Housing", "value": 1200 },
-    { "name": "Food", "value": 800 },
-    { "name": "Transportation", "value": 400 },
-    { "name": "Utilities", "value": 300 },
-    { "name": "Entertainment", "value": 200 },
-    { "name": "Healthcare", "value": 150 },
-    { "name": "Other", "value": 542.21 }
+    {
+      "name": "Housing",
+      "value": 1200
+    },
+    {
+      "name": "Food",
+      "value": 1900
+    },
+    {
+      "name": "Transportation",
+      "value": 400
+    },
+    {
+      "name": "Utilities",
+      "value": 300
+    },
+    {
+      "name": "Entertainment",
+      "value": 200
+    },
+    {
+      "name": "Healthcare",
+      "value": 150
+    },
+    {
+      "name": "Other",
+      "value": 542.21
+    }
   ]
-} 
+}
