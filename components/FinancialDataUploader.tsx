@@ -49,7 +49,7 @@ export function FinancialDataUploader({
 
   return (
     <div className="p-6 border rounded-lg bg-background/50 backdrop-blur">
-      <h3 className="text-xl font-semibold mb-4">Welcome to Midas</h3>
+      <h3 className="text-xl font-semibold mb-4">Welcome to Midas!</h3>
       <p className="text-muted-foreground mb-6">
         Upload your financial data to get started.
       </p>
