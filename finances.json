@@ -78,5 +78,14 @@
       "date": "08.08.2023",
       "type": "debit"
     }
+  ],
+  "monthlyExpenses": [
+    { "name": "Housing", "value": 1200 },
+    { "name": "Food", "value": 800 },
+    { "name": "Transportation", "value": 400 },
+    { "name": "Utilities", "value": 300 },
+    { "name": "Entertainment", "value": 200 },
+    { "name": "Healthcare", "value": 150 },
+    { "name": "Other", "value": 542.21 }
   ]
 } 

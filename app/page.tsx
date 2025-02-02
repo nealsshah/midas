@@ -97,19 +97,13 @@ export default function Page() {
               className="border-primary/20"
             />
           </div>
-          <div className="grid grid-cols-2 gap-4 mt-6">
-            <Card className="p-6">
-              <div className="mb-4 flex items-center justify-between">
-                <h2 className="text-lg font-semibold">Expense Categories</h2>
+          <div className="flex w-full gap-4 mt-6">
+              <div className="flex-1">
+                <SavingsGraph className="w-full" />
               </div>
-              <SavingsGraph></SavingsGraph>
-            </Card>
-            <Card className="p-6">
-              <div className="mb-4 flex items-center justify-between">
-                <h2 className="text-lg font-semibold">Expense Categories</h2>
+              <div className="flex-1">
+                <ExpensePieChart className="w-full" />
               </div>
-              <ExpensePieChart />
-            </Card>
           </div>
           <div className="mt-6">
             <h2 className="text-lg font-semibold mb-4">Expense Breakdown</h2>

@@ -4,12 +4,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
 
 const data = [
-  { month: "Mar", savings: 2100 },
-  { month: "Apr", savings: 2400 },
-  { month: "May", savings: 2200 },
-  { month: "Jun", savings: 2800 },
   { month: "Jul", savings: 3100 },
-  { month: "Aug", savings: 3500 },
+  { month: "Aug", savings: 3400 },
+  { month: "Sep", savings: 3200 },
+  { month: "Oct", savings: 3600 },
+  { month: "Nov", savings: 3900 },
+  { month: "Dec", savings: 3700 },
+  { month: "Jan", savings: 4100 },
 ]
 
 export function SavingsGraph() {
