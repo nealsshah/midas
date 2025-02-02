@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
           {
             role: "system",
             content:
-              "Convert financial data into a specific JSON format. Return only valid JSON with no markdown formatting or additional commentary."
+              "Convert financial data into a specific JSON format. You MUST return only a valid JSON with no markdown formatting or additional commentary. Just return the JSON"
           },
           {
             role: "user",
