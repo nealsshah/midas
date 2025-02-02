@@ -152,7 +152,7 @@ export default function Page() {
                 <div className="space-y-1">
                   <h1 className="text-2xl font-bold">Financial Overview</h1>
                   <div className="text-sm text-muted-foreground">
-                    Aug 13, 2023 - Aug 18, 2023
+                    Jan 13, 2025 - Jan 18, 2025
                   </div>
                 </div>
                 <div className="w-[700px]">

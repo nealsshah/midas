@@ -12,7 +12,7 @@
       "value": 3592.21,
       "change": {
         "value": -340,
-        "percentage": -10.5,
+        "percentage": 10.5,
         "isPositive": false
       }
     },
@@ -86,35 +86,35 @@
       "name": "Grocery Store",
       "category": "Food",
       "amount": 132.54,
-      "date": "2023-08-18",
+      "date": "2025-01-18",
       "type": "Debit"
     },
     {
       "name": "Salary Deposit",
       "category": "Income",
       "amount": 3500,
-      "date": "2023-08-15",
+      "date": "2025-01-15",
       "type": "Credit"
     },
     {
       "name": "Electric Bill",
       "category": "Utilities",
       "amount": 89.99,
-      "date": "2023-08-12",
+      "date": "2025-01-12",
       "type": "Debit"
     },
     {
       "name": "Restaurant",
       "category": "Food",
       "amount": 65.3,
-      "date": "2023-08-10",
+      "date": "2025-01-10",
       "type": "Debit"
     },
     {
       "name": "Online Shopping",
       "category": "Shopping",
       "amount": 199.99,
-      "date": "2023-08-08",
+      "date": "2025-01-08",
       "type": "Debit"
     }
   ],
