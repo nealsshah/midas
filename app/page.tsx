@@ -6,6 +6,7 @@ import { TransactionTable } from "@/components/vault-table"
 import { AIAdvisorCall } from "@/components/ai-advisor-call"
 import { BarChart3, ChevronDown, CreditCard, Home, LayoutDashboard, LifeBuoy, PiggyBank, Settings } from "lucide-react"
 import { ExpensePieChart } from "@/components/expense-pie-chart"
+import { SavingsGraph } from "@/components/savings-graph"
 import financialData from "@/finances.json"
 
 export default function Page() {
@@ -96,12 +97,20 @@ export default function Page() {
               className="border-primary/20"
             />
           </div>
-          <Card className="mt-6 p-6">
-            <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-lg font-semibold">Expense Categories</h2>
-            </div>
-            <ExpensePieChart />
-          </Card>
+          <div className="grid grid-cols-2 gap-4 mt-6">
+            <Card className="p-6">
+              <div className="mb-4 flex items-center justify-between">
+                <h2 className="text-lg font-semibold">Expense Categories</h2>
+              </div>
+              <SavingsGraph></SavingsGraph>
+            </Card>
+            <Card className="p-6">
+              <div className="mb-4 flex items-center justify-between">
+                <h2 className="text-lg font-semibold">Expense Categories</h2>
+              </div>
+              <ExpensePieChart />
+            </Card>
+          </div>
           <div className="mt-6">
             <h2 className="text-lg font-semibold mb-4">Expense Breakdown</h2>
             <TransactionTable />
