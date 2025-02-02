@@ -1,0 +1,82 @@
+{
+  "overview": {
+    "totalBalance": {
+      "value": 24892.54,
+      "change": {
+        "value": 1240,
+        "percentage": 5.2,
+        "isPositive": true
+      }
+    },
+    "monthlySpending": {
+      "value": 3592.21,
+      "change": {
+        "value": 340,
+        "percentage": 10.5,
+        "isPositive": false
+      }
+    },
+    "savingsGoal": {
+      "value": 10892,
+      "change": {
+        "value": 1340,
+        "percentage": 14.0,
+        "isPositive": true
+      }
+    }
+  },
+  "expenseCategories": [
+    { "name": "Housing", "value": 1200 },
+    { "name": "Food", "value": 800 },
+    { "name": "Transportation", "value": 400 },
+    { "name": "Utilities", "value": 300 },
+    { "name": "Entertainment", "value": 200 },
+    { "name": "Healthcare", "value": 150 },
+    { "name": "Other", "value": 542.21 }
+  ],
+  "monthlySpendingHistory": [
+    { "month": "Mar", "spending": 3200 },
+    { "month": "Apr", "spending": 3400 },
+    { "month": "May", "spending": 3100 },
+    { "month": "Jun", "spending": 3600 },
+    { "month": "Jul", "spending": 3500 },
+    { "month": "Aug", "spending": 3592 }
+  ],
+  "recentTransactions": [
+    {
+      "name": "Grocery Store",
+      "category": "Food",
+      "amount": 132.54,
+      "date": "18.08.2023",
+      "type": "debit"
+    },
+    {
+      "name": "Salary Deposit",
+      "category": "Income",
+      "amount": 3500.00,
+      "date": "15.08.2023",
+      "type": "credit"
+    },
+    {
+      "name": "Electric Bill",
+      "category": "Utilities",
+      "amount": 89.99,
+      "date": "12.08.2023",
+      "type": "debit"
+    },
+    {
+      "name": "Restaurant",
+      "category": "Food",
+      "amount": 65.30,
+      "date": "10.08.2023",
+      "type": "debit"
+    },
+    {
+      "name": "Online Shopping",
+      "category": "Shopping",
+      "amount": 199.99,
+      "date": "08.08.2023",
+      "type": "debit"
+    }
+  ]
+} 
