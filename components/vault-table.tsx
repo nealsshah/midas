@@ -21,9 +21,6 @@ export function TransactionTable() {
           <TableRow key={transaction.name + transaction.date}>
             <TableCell className="font-medium">
               <div className="flex items-center gap-2">
-                <Avatar className="h-6 w-6">
-                  <img src={`/placeholder.svg?height=24&width=24`} alt={transaction.name} />
-                </Avatar>
                 <div className="font-medium">{transaction.name}</div>
               </div>
             </TableCell>
@@ -33,7 +30,7 @@ export function TransactionTable() {
             <TableCell>
               <span
                 className={`inline-flex items-center rounded-full px-2 py-1 text-xs ${
-                  transaction.type === "credit" ? "bg-green-500/10 text-green-500" : "bg-red-500/10 text-red-500"
+                  transaction.type === "Credit" ? "bg-green-500/10 text-green-500" : "bg-red-500/10 text-red-500"
                 }`}
               >
                 {transaction.type}
