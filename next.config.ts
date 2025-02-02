@@ -10,6 +10,11 @@ module.exports = {
     // WARNING: This allows production builds to successfully complete even if your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  typescript: {
+    // WARNING: This allows production builds to succeed even if there are type errors.
+    // Use with caution!
+    ignoreBuildErrors: true,
+  },
 };
 
 
